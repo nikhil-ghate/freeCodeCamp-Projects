@@ -1,0 +1,75 @@
+html{
+  font-size: 10px;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 1.7rem;
+  line-height: 1.4;
+  text-align: center;
+  color: #111;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: monospace;
+}
+
+#main {
+  margin: 20px 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #D9AFD9;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+#img-div {
+  background-color: #97D9E1;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+figcaption {
+  margin: 15px 0 5px 0;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center
+}
+
+ul {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: justify;
+  
+}
+
+li {
+  margin: 15px 0;
+}
+
+/* For making it Responsive  */
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+  h1 { 
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-family: Roboto;
+  }
+  
+  #img-caption{
+    font-size: 1.4rem;
+  }
+}
